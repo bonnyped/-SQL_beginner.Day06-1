@@ -1,3 +1,5 @@
+DROP TABLE IF EXISTS person_discounts;
+
 create table person_discounts (
     id bigint primary key NOT NULL ,
     person_id bigint NOT NULL ,
