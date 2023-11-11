@@ -1,4 +1,4 @@
-INSERT INTO person_discounts (id, person_id, pizzeria_id, discounts)
+INSERT INTO person_discounts (id, person_id, pizzeria_id, discount)
 SELECT ROW_NUMBER() OVER () AS id,
        all_combintations.person_id,
        all_combintations.id AS pizzeria_id,
